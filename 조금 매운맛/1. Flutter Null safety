@@ -1,0 +1,62 @@
+# Null safety
+* 변수에 null 값 할당 불가
+* Class 내의 변수는 반드시 선언과 동시에 초기화 필요
+
+``` dart
+class Person() {
+  String? name; // 변수에 null 값이 들어올 수 있다는 것을 미리 알림
+  
+  String nameChange(String? name) {
+    this.name = name;
+    if (name == null){ // null check
+      return 'need a name'
+    }
+    return name.toUpperCase();
+  }
+}
+```
+
+``` dart
+class Person() {
+  late int age; // 변수를 늦게 초기화할 것임을 알림(변수 나중에 할당할 것임을 알림)
+  
+  int sum(int age, int num) {
+  this.age = age;
+  int total = age + num;
+    return total + age;
+}
+
+void main() {
+  Person p = Person();
+  print(p.sum(100, 50));
+}
+```
+
+``` dart
+void main() {
+  int x = 50;
+  int? y;
+  if (x > 0) {
+    y = x;
+  }
+  int value = y!; // !는 y가 항상 null이 아닐 것이라는 의미
+  print(value);
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
