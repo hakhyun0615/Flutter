@@ -1,0 +1,11 @@
+# State
+* UI에 변화가 생기도록 영향을 미치는 데이터
+
+# setState method
+* Build method를 호출
+* Flutter가 기본으로 제공하는 state management
+* 비효율적이고 동시에 다른 위젯의 state를 업데이트 시켜주지 못함
+
+# state management
+* 위젯이 쉽게 데이터에 접근할 수 있는 방법
+* 변화된 데이터에 맞추어서 UI를 다시 그려주는 기능
