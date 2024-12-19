@@ -1,7 +1,8 @@
-# Flutter Course Notes
+# Flutter
 This repository contains notes and summaries from a comprehensive Flutter course, divided into three main sections of increasing complexity.
 
-## Beginner Level
+## Contents
+### Beginner Level
 This section covers the basics of Flutter development.
 
 1. Introduction to Flutter
@@ -19,7 +20,7 @@ This section covers the basics of Flutter development.
 13. ListView Builder and Dialog
 14. Data Transfer and Paging in ListView
 
-## Intermediate Level
+### Intermediate Level
 This section delves into more advanced Flutter concepts.
 
 1. Flutter Null Safety
@@ -32,7 +33,7 @@ This section delves into more advanced Flutter concepts.
 8. Implementing Login Functionality
 9. Working with Streams
 
-## Advanced Level with GetX
+### Advanced Level with GetX
 This section focuses on state management and advanced features using GetX.
 
 1. State Management Basics
